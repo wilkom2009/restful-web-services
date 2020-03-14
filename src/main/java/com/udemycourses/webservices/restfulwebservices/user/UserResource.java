@@ -1,9 +1,5 @@
 package com.udemycourses.webservices.restfulwebservices.user;
 
-//import org.springframework.hateoas.EntityModel;
-//import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
-//
-//import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.methodOn;

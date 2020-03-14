@@ -17,6 +17,7 @@ public class RestfulWebServicesApplication {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
 	}
 	
+	//Internationalization
 	@Bean
 	public LocaleResolver localeResolver() {
 //		SessionLocaleResolver localeResolver = new SessionLocaleResolver();

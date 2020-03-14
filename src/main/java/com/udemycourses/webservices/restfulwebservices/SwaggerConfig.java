@@ -16,14 +16,14 @@ import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
-@EnableSwagger2
+@EnableSwagger2 
 public class SwaggerConfig {
 
 	public static final Contact DEFAULT_CONTACT = new Contact("Wilson KOMLAN", "http://www.afuno.com",
 			"info@afuno.com");
 	public static final ApiInfo DEFAULT_API_INFO = new ApiInfo("Awesome API Title ", "Awesome Api Documentation", "1.0",
 			"urn:tos", DEFAULT_CONTACT, "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0",
-			new ArrayList<VendorExtension>());
+			new ArrayList<>());
 	private static final Set<String> DEFAULT_PRODUCES_AND_CONSUMERS = new HashSet<String>(
 			Arrays.asList("application/json", "application/xml"));
 
