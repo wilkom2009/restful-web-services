@@ -1,14 +1,25 @@
 # restful-web-services
 
-> In this project, we implement some basic but usefull features of RESTful Web Services.
+> In this project, we implement some basic but usefull features of RESTful Web Services. The most important thing of this project is that it implements the Richardson Maturity Model Level Three (Level three of maturity makes use of all three i.e. URIs and HTTP and HATEOAS)!
 
 ## Table of contents
 * [General info](#general-info)
+* [Technologies](#technologies)
 * [Features](#features)
-
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
 ## General info
 Through this project, we want to put into practice what we learned from Udemy regarding RESTful web services!
+
+## Technologies
+* Spring boot 2.1.3.RELEASE
+* Spring boot Actuator
+* Spring data Jpa
+* Spring security
+* Spring HATEOAS
+* Swagger2 - version 2.9.2
+* Swagger-ui - version 2.9.2
 
 ## Features
 Here are the useful best practices features you are discovering in this project:
@@ -59,6 +70,20 @@ Here are the useful best practices features you are discovering in this project:
  http://localhost:8080/v2/api-docs  or http://localhost:8080/swagger-ui.html
 
 * How to monitor RESTful Services with Spring Boot Actuator?
-> 
 
-* How to connect RESTful Services to a backend with JPA?
+> Enable a lot of stuff of actuator using hal browser, add following config in application.properties
+`management.endpoints.web.exposure.include=*`
+
+> Hit http://localhost:8080/actuator or http://localhost:8080/browser/index.html to monitor de RESTful web services
+
+* Connect RESTful Services to a backend with JPA
+
+> All classes needed in the following package
+`com.udemycourses.webservices.restfulwebservices`
+
+## Inspiration
+This project is a hands-on for the Udemy course : [Master Microservices with Spring Boot and Spring Cloud](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud)
+Many thanks to [Ranga Rao Karanam](https://www.linkedin.com/in/rangakaranam/) for this awesome course!
+
+## Contact
+Created by [@Wilson Koffi KOMLAN](https://www.linkedin.com/in/wilkom2009/) - feel free to contact me!
